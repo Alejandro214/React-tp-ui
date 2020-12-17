@@ -1,0 +1,15 @@
+.Searc_imagenes ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; 
+}
+.Searc_imagenes ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.Searc_imagenes img{
+  width:  200px;
+  height: 100;
+  margin-bottom: 20px;
+}

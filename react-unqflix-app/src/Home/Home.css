@@ -1,0 +1,52 @@
+.imagenes {
+  height: 400px;
+  width: 100%;
+}
+
+.imgSlideGeneric {
+  height: 75%;
+  width: 95%;
+}
+
+.topImgSlideGeneric {
+  display:inline-block;
+  position:relative;
+}
+
+.topImgSlideGeneric > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.Carruseles {
+  padding-left: 10px;
+}
+
+#tituloCarrusel {
+  font-size: 300%;
+  text-shadow: 2px 2px 0 #b9b7b7, 2px 2px 0
+}
+
+#boton {
+  cursor: pointer;
+}
+
+.imgSlideGeneric :hover, .imgSlidePrincipal:hover, .topImgSlideGeneric :hover {
+  cursor: pointer;
+  opacity: 0.20;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.tituloAlternativo {
+  font-size: xx-large;
+  text-shadow: 2px 2px 0 #b9b7b7, 2px 2px 0;
+  font-weight: bold;
+}

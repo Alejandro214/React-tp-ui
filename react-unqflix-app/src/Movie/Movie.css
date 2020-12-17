@@ -1,0 +1,39 @@
+.bodyContent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    grid-template-rows: repeat(auto-fit, 50%); 
+    margin: 10px;
+}
+
+.imgBodyContent{
+    grid-column: 1;
+    grid-row: 1/3;
+    width: 50%;
+
+}
+
+.titleBox{
+    grid-column: 2;
+    grid-row: 1;
+    text-shadow: 2px 2px 0 #b9b7b7, 2px 2px 0
+}
+
+#buttonContent{
+    margin-top: 30%;
+    grid-column: 2;
+    grid-row: 2;
+    display: inline-block;
+    align-self: center;
+}
+
+#boton {
+    font-size: 300%;
+    height: 30%;
+    width: 30%;
+    margin-left: 40%;
+    text-shadow: 2px 2px 0 #b9b7b7, 2px 2px 0;
+}
+
+.description{
+    text-shadow: 1px 1px 0 #b9b7b7, 1px 1px 0
+}

@@ -1,0 +1,20 @@
+
+:root {
+  font-size: 62.5%;
+  --color-orange: #ff7455;
+  --color-blue: #1ba8b1;
+  --color-yellow: #fffeaa;
+  --color-pink: #ff0079;
+  --color-green: #dcff46;
+  --color-background: #FAFAFA;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

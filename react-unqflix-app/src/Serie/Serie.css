@@ -1,0 +1,46 @@
+.seasonsBox {
+    grid-column: 2;
+    grid-row: 2/5;
+}
+
+#seasonBoxTitle {
+    font-size: 150%;
+}
+
+.title {
+    font-size: 450%;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.description {
+    justify-content: space-evenly;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+.topImgSlideGeneric :hover {
+    cursor: pointer;
+}
+
+.chapterbtn{
+margin-top: 3px;
+}
+
+.tab-pane fade{
+    width: max-content;
+}
+
+.tab-content{
+    width: max-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bodyContent{
+    margin: 10px;
+}
+
+.carousel-initialized{
+    margin: 10px;
+}
